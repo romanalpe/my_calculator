@@ -1,6 +1,7 @@
 -------------------------------------------------
 -------------------------------------------------
-<!DOCTYPE html><html><head>
+<!DOCTYPE html><html>
+<head>
 <title>Calculator</title><meta charset="utf-8">
 <script type="text/javascript">
 function cube() {
@@ -8,15 +9,13 @@ function cube() {
   num.value = Math.pow(num.value, 3);
 }
 function cuatro() {
-var num = document.getElementByIld("n2");
-num.value = Math.pow(num.value, 4);
+  var num = document.getElementById("n2");
+  num.value = Math.pow(num.value, 4);
 }
 function seno() {
-var num = document.getElementByIld("n3");
+var num = document.getElementById("n3");
 num.value = Math.sin(num.value);
-
-
-
+}
 </script>
 </head>
 <body>
